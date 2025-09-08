@@ -1,0 +1,172 @@
+/*Nollställning*/
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(244, 244, 244);
+}
+
+html {
+    overflow-y: scroll;
+}
+
+/*Header*/
+header {
+    background-color: rgb(128, 174, 207);
+    padding: 25px;
+    color: white;
+}
+
+.header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-veronica {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.header-description {
+    font-size: small;
+    margin-top: 5px;
+}
+
+.menue {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.menue a {
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.menue a:hover {
+    text-decoration: underline;
+}
+
+/*Samtliga sidor*/
+
+h2 {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: gray;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*Hem*/
+
+.home-page {
+    text-align: center;
+}
+
+.project-boxes {
+    display: grid;
+    gap: 20px;
+    margin-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px rgb(165, 164, 164);
+    box-sizing: border-box;
+    width: 100%;
+    text-decoration: none;
+    color: gray;
+}
+
+.project-box:hover {
+    scale: 1.02;
+}
+
+.image-placeholder {
+    background-color: rgb(244, 244, 244);
+    padding: 5px;
+    border-radius: 10px;
+    
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    box-sizing: border-box;
+}
+
+.project-name {
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.project-description {
+    margin-top: 3px;
+    margin-left: 5px;
+    text-align: left;
+    font-size: small;
+}
+/*Om mig*/
+
+.about-page p {
+    margin: 20px auto;
+    color: gray;
+    text-align: justify;
+    max-width: 1000px;
+}
+
+/*Portfolio*/
+
+.portfolio-page p {
+    margin-top: 20px;
+    color: gray;
+    text-align: center;
+}
+
+/*Kontakt*/
+
+.contact-information {
+    display: grid;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-page img {
+    width: 20px;
+}
+
+.contact-page a {
+    text-decoration: none;
+    color: gray;
+}
+
+.contact:hover {
+    scale: 1.07;
+}
